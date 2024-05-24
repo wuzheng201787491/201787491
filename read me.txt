@@ -1,0 +1,14 @@
+The expression of deprivation has always been an issue of concern, it is interesting for me to know the distribution of high deprivation areas in my city. Through my research, I have learnt about an index that gives a better reflection of the level of deprivation: the Index of Multiple Deprivation (IMD). After downloading the IMD data, I found that the IMD is obtained by weighting seven different domains with different intensities. Therefore I decided to analyse the correlation between the seven domains after analysing the distribution of high deprivation areas in Leeds.
+
+The GitHub repository contains:
+2015 IMD data for England
+Cropped spatial data for Leeds
+The .ipynb notebook which contains my whole study process
+And the introductory Markdown that is currently being opened
+
+note： Uncropped files ‘Lower_layer_Super_Output_Areas_2021_EW_BFE_V9_-3647710721716634062.geojson’ are too large to upload.
+I have to only provide a link to my download:
+https://geoportal.statistics.gov.uk/datasets/761ecd09b4124843b95511a242e2b1a1_0/explore?location=52.597545%2C-2.487028%2C5.96
+
+The main purpose of the code I wrote in my .ipynb notebook is to complete my two study aims.
+Apart from the previous preparations (adapting the environment, importing and cleaning the data, joining the data and so on), my first aim was to analyse the distribution of high deprivation areas in Leeds. I used gpd.explore() for spatial visualisation so that the resulting maps could visualise the location of high deprivation areas. Next, I aim to analyse the correlations between the seven areas. In order to do this I process the data with the support of Spearman's rank correlation. After that, I chose to present the results in a non-spatial visualisation.
